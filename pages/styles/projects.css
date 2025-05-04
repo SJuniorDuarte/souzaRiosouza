@@ -81,3 +81,16 @@
 .btn-project:hover > .arrow-right {
   margin-left: 10px;
 }
+@media screen and (max-width: 600px) {
+  .project {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-title {
+    font-size: 20px;
+  }
+  .project-subtitle {
+    font-size: 12px;
+  }
+}

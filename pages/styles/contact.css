@@ -70,10 +70,47 @@
   border: 1px solid #00616b;
   border-radius: 15px;
 }
+.btn-send {
+  height: 50px;
+  background-color: #00616b;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-send:hover {
+  background-color: white;
+  color: #00616b;
+  border: 1px solid #00616b;
+}
 .tel {
   margin-right: auto;
   margin-left: 15px;
   font-size: 20px;
   color: #00616b;
   text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .address iframe {
+    width: 100%;
+  }
+  .tel {
+    font-size: 15px;
+  }
+  .name-inp .contact-container {
+    margin: 0;
+  }
 }

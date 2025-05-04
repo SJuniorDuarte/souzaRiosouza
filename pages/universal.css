@@ -163,3 +163,43 @@ header {
 .instagram {
   color: white;
 }
+
+@media (max-width: 600px) {
+  .header-bottom {
+    height: 50px;
+  }
+  .header-list {
+    gap: 10px;
+  }
+  .header-list li {
+    font-size: 12px;
+  }
+  .contact-me {
+    font-size: 12px;
+  }
+  .footer-color h1 {
+    font-size: 12px;
+  }
+  .logo-footer {
+    margin-top: 25px;
+    width: 200px;
+    height: 100px;
+  }
+  .btn-contact {
+    width: 100%;
+  }
+  .instagram {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .container-footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header-service {
+    display: none;
+  }
+  .title-contact {
+    font-size: 20px;
+  }
+}

@@ -451,3 +451,99 @@ a {
 .instagram {
   color: white;
 }
+
+/* Estilos para celulares (largura máxima de 600px) */
+@media (max-width: 600px) {
+  .header-bottom {
+    height: 50px;
+  }
+  .header-list {
+    gap: 10px;
+  }
+  .header-list li {
+    font-size: 12px;
+  }
+  .title-final-competence {
+    font-size: 20px;
+    text-align: center;
+  }
+  .subtitle-final-competence {
+    width: 80%;
+    font-size: 15px;
+  }
+  .contact-me {
+    font-size: 12px;
+  }
+  .footer-color h1 {
+    font-size: 12px;
+  }
+  .logo-footer {
+    margin-top: 25px;
+    width: 200px;
+    height: 100px;
+  }
+  .instagram {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .title-contact {
+    font-size: 18px;
+  }
+  .list-card-service {
+    gap: 25px;
+  }
+  .row-competence-left {
+    flex-direction: column;
+  }
+  .title-competence {
+    margin: 0 auto;
+    font-size: 20px;
+  }
+  .imgs-certification {
+    justify-content: center;
+    align-items: center;
+  }
+  .subtitle-row-competence {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    font-size: 12px;
+  }
+  .customers {
+    display: none;
+  }
+  .final-competence {
+    width: 400px;
+  }
+  .title-final-competence {
+    font-size: 25px;
+  }
+  .certifications-img-right {
+    display: none;
+  }
+  .container-footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .header-service {
+    display: none;
+  }
+  .row-competence {
+    display: none;
+  }
+  .contact-container {
+    flex-direction: column;
+  }
+  .certifications-section {
+    flex-direction: column;
+  }
+  .certifications-left {
+    width: 100%;
+  }
+  .certifications-img-right {
+    width: 100%;
+  }
+  .imgs-certification {
+    width: 100%;
+  }
+}

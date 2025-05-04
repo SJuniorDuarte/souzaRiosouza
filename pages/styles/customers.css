@@ -47,3 +47,20 @@
   flex-direction: column;
   align-items: center;
 }
+@media screen and (max-width: 600px) {
+  .container-customers {
+    height: 100%;
+  }
+  .customer {
+    margin-top: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .name-customer {
+    text-align: center;
+  }
+  .list-customer {
+    flex-direction: column;
+  }
+}
