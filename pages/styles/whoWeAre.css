@@ -1,0 +1,125 @@
+.us {
+  background-image: url("https://tecnitest.com.br/wp-content/uploads/2023/08/IMG_0157-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+.title-us {
+  color: white;
+  font-size: 40px;
+}
+.container-us {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.698);
+  flex-direction: row;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.center-about-us {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 25px auto;
+  gap: 10px;
+}
+.title-about-us {
+  color: #00616b;
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+}
+.paragraph-about-us {
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0;
+}
+.image-about-us {
+  width: 400px;
+  position: relative;
+  top: -50px;
+  height: 500px;
+  background-color: white;
+  padding: 5px;
+}
+.text-about-us {
+  width: 50%;
+}
+.aln-center {
+  align-items: center;
+}
+.image-column {
+  display: flex;
+  flex-direction: column;
+}
+.image-column-about-us {
+  width: 300px;
+  height: 300px;
+}
+.mg-0 {
+  margin-top: 0;
+}
+.image-1 {
+  width: 260px;
+}
+.image-2 {
+  background-color: white;
+  width: 260px;
+  padding: 2px;
+  position: relative;
+  top: -50px;
+  left: 100px;
+}
+.text-2 {
+  font-size: 35px;
+}
+.title-mission {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+.mission-container {
+  background-color: #00616b;
+  padding: 1.5rem;
+  width: 60%;
+  margin: 25px auto;
+  gap: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.block-mission {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+  align-items: center;
+}
+.image-mission {
+  width: 344px;
+  height: 240px;
+}
+.subtitle-mission {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}
+.paragraph-mission {
+  color: white;
+  font-size: 15px;
+  margin: 0;
+}
+.block-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.line-mission {
+  width: 75%;
+  margin: 10px auto;
+}

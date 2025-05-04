@@ -1,0 +1,453 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-color {
+  background-color: #00616b;
+  width: 100%;
+  height: 10px;
+}
+.header-button-contact {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+}
+.btn-contact {
+  background-color: #00616b;
+  text-decoration: none;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  justify-content: center;
+  color: #fff;
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.header-log {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.header-title {
+  font-size: 20px;
+  margin: 0;
+}
+.header-subtitle {
+  font-size: 15px;
+  margin: 0;
+}
+.header-service {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: #eeeeee solid 1px;
+}
+.image-logo-header {
+  width: 200px;
+  height: 150px;
+}
+.header-bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-items: center;
+  height: 80px;
+}
+.header-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}
+.header-list li {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  font-size: 15px;
+}
+.header-list li:hover {
+  color: #00616b;
+}
+.service-section {
+  margin-top: 50px;
+}
+.title-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-title {
+  color: #00616b;
+  font-size: 40px;
+  margin: 0;
+}
+.service-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 0;
+}
+.list-card-service {
+  margin-top: 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 350px;
+  height: 295px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #00616b;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+.card-logo {
+  position: relative;
+  left: 125px;
+  top: -50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00616b;
+  width: 75px;
+  height: 75px;
+  border-radius: 50px;
+}
+
+.card-title {
+  text-align: center;
+  margin: 0;
+  margin-top: 15px;
+  color: #00616b;
+  font-size: 25px;
+}
+.card-subtitle {
+  text-align: center;
+  margin: 0;
+  margin-top: 15px;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.btn-card-knowmore {
+  margin-top: auto;
+  text-align: center;
+  font-size: 15px;
+  justify-content: center;
+  color: #00616b;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+}
+.arrow-right {
+  color: #00616b;
+  margin-right: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-card-knowmore:hover > .arrow-right {
+  color: #74c0fc;
+  margin: 0;
+}
+.competence-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.intro-competence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subtitle-competence {
+  text-align: center;
+  color: #00616b;
+  font-size: 15px;
+}
+.title-competence {
+  background-color: #74c0fc;
+  padding: 2px;
+  color: #00616b;
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.bg-remove {
+  background-color: transparent;
+}
+.text-color-competence {
+  color: white;
+}
+.description-competence {
+  margin-top: 20px;
+  width: 70%;
+  font-weight: 300;
+  text-align: center;
+  font-size: 17px;
+}
+.video-competence {
+  width: 80%;
+  height: 600px;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.intro-final-competence {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-final-competence {
+  color: brown;
+  font-size: 40px;
+  margin: 0;
+}
+.subtitle-final-competence {
+  margin-top: 20px;
+  width: 70%;
+  font-weight: 300;
+  text-align: center;
+  font-size: 17px;
+}
+.final-competence {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.row-competence {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.row-competence-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.row-competence-right {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.column-competence {
+  display: flex;
+  width: 600px;
+  flex-direction: column;
+}
+.subtitle-row-competence {
+  margin: 0;
+  margin-top: 10px;
+  width: 70%;
+  font-weight: 300;
+  font-size: 15px;
+}
+.btn-competence {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  font-size: 15px;
+  justify-content: center;
+  background-color: #00616b;
+  color: white;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+.btn-competence:hover {
+  gap: 10px;
+  width: 230px;
+  height: 40px;
+}
+.certifications-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.certifications-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 20px;
+}
+.certifications-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 50px;
+}
+.certifications-left {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.certifications-img-right {
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+}
+.check-certification {
+  width: 100%;
+}
+.title-check-certification {
+  background-color: #eeeeee;
+  padding-left: 15px;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 0;
+  width: 100;
+}
+.imgs-certification {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.customers {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-customers {
+  font-size: 20px;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+.carrousel-customers {
+  width: 500px;
+  height: 90px;
+  display: flex;
+  overflow: hidden;
+  margin-top: 50px;
+}
+.container-carrousel {
+  transform: translateX(0);
+  transition: transform 0.5s ease-in-out;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.container-carrousel img {
+  width: 128px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+.footer {
+  background-image: url("https://tecnitest.com.br/wp-content/uploads/2023/08/silos-agricolas-exterior-do-edificio-scaled.jpg");
+  background-size: cover;
+  background-position: bottom;
+  flex-direction: column;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+.container-footer {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.698);
+  flex-direction: row;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  align-items: center;
+  justify-content: center;
+}
+.logo-footer {
+  width: 250px;
+  height: 125px;
+}
+.tel-footer {
+  font-size: 30px;
+  font-weight: 300;
+  color: white;
+  margin: 0;
+}
+.title-contact {
+  color: white;
+  font-size: 25px;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.footer-color {
+  background-color: #00616b;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.footer-color h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 20px;
+}
+.contact-me {
+  margin-left: 5px;
+  font-size: 20px;
+}
+.instagram {
+  color: white;
+}
