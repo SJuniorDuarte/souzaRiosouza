@@ -173,6 +173,7 @@ header {
   }
   .header-list li {
     font-size: 12px;
+    width: 70px;
   }
   .contact-me {
     font-size: 12px;

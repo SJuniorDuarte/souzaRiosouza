@@ -1,0 +1,23 @@
+.img-1 {
+  background-image: url(../../images/imagesid/image-id7.jpeg);
+}
+.img-2 {
+  background-image: url(../../images/imagesid/image-id8.jpeg);
+}
+.img-3 {
+  background-image: url(../../images/imagesid/image-id9.jpeg);
+}
+.img-4 {
+  background-image: url(../../images/imagesid/image-id10.jpeg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+.img-4:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.img-4:hover > .btn-image-modal {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}

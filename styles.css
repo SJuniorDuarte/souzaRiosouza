@@ -203,20 +203,24 @@ header {
   color: white;
 }
 .description-competence {
-  margin-top: 20px;
-  width: 70%;
   font-weight: 300;
   text-align: center;
   font-size: 17px;
+  margin-top: 20px;
+  width: 70%;
 }
 .video-competence {
-  width: 80%;
+  width: 55%;
   height: 600px;
   background-color: #eeeeee;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: auto;
+  background-image: url(images/WhatsApp\ Image\ 2025-05-03\ at\ 15.42.08.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin-top: 50px;
 }
 .intro-final-competence {
@@ -451,7 +455,6 @@ a {
 .instagram {
   color: white;
 }
-
 /* Estilos para celulares (largura máxima de 600px) */
 @media (max-width: 600px) {
   .header-bottom {

@@ -1,0 +1,151 @@
+.img-project {
+  width: 300px;
+  border-radius: 18px;
+  border: 3px solid white;
+  height: 200px;
+}
+.smartfit-section {
+  background-image: url("https://tecnitest.com.br/wp-content/uploads/2023/11/engenheiro-esta-inspecionando-seu-trabalho-no-canteiro-de-obras-de-construcao-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.color-smartfit {
+  background-color: #00606b93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.smartfit-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.title-service {
+  font-size: 30px;
+  margin: 15px;
+}
+.list-images-service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.demo-service {
+  width: 450px;
+  border-radius: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid white;
+  height: 256px;
+}
+.img-1 {
+  background-image: url(../../images/imagesid/image-id1.jpeg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+.img-1:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.img-1:hover > .btn-image-modal {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+.img-2 {
+  background-image: url(../../images/imagesid/image-id2.jpeg);
+  background-size: cover;
+  background-position: center top;
+  transition: all 0.3s ease-in-out;
+}
+.img-2:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.img-2:hover > .btn-image-modal {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+.img-3 {
+  background-image: url(../../images/imagesid/image-id3.jpeg);
+  background-size: cover;
+  transition: all 0.3s ease-in-out;
+
+  background-position: center;
+}
+.img-3:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.img-3:hover > .btn-image-modal {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+.btn-image-modal {
+  display: none;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn-image-modal:hover {
+  background-color: white;
+  color: black;
+}
+.image-modal {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.673);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.close {
+  position: absolute;
+  right: 20px;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
+  top: 20px;
+}
+
+.img-modal {
+  width: 80%;
+  height: 90%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px) {
+  .list-images-service {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+  }
+  .smartfit-project {
+    height: 100%;
+  }
+  .demo-service {
+    width: 256px;
+    height: 180px;
+  }
+}
