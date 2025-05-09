@@ -422,6 +422,7 @@ header {
 }
 .title-contact {
   color: white;
+  text-align: center;
   font-size: 25px;
 }
 .contact {
@@ -454,9 +455,35 @@ a {
 }
 .instagram {
   color: white;
+  text-align: center;
+}
+.intro-text {
+  text-align: center;
+  color: #00616b;
+  font-size: 20px;
+  font-weight: 500;
+}
+.final-competence-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.paragraph-competence {
+  color: black;
+  font-weight: 300;
+  margin: 0 auto;
+  font-size: 17px;
+  width: 80%;
 }
 /* Estilos para celulares (largura máxima de 600px) */
 @media (max-width: 600px) {
+  .video-competence {
+    width: 70%;
+  }
+  .paragraph-competence {
+    font-size: 12px;
+  }
   .header-bottom {
     height: 50px;
   }
@@ -548,5 +575,23 @@ a {
   }
   .imgs-certification {
     width: 100%;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1440px) {
+  /* Estilos específicos para notebooks */
+  .list-card-service {
+    gap: 30px;
+  }
+  .final-competence {
+    width: 400px;
+  }
+  .column-competence {
+    width: 400px;
+  }
+  .title-competence {
+    font-size: 30px;
+  }
+  .row-competence {
+    width: 400px;
   }
 }
