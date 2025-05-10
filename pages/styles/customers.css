@@ -45,7 +45,11 @@
 .customer {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+}
+.name-customer {
+  text-align: center;
 }
 @media screen and (max-width: 600px) {
   .container-customers {
@@ -62,5 +66,10 @@
   }
   .list-customer {
     flex-direction: column;
+  }
+}
+@media (min-width: 900px) and (max-width: 1440px) {
+  .container-customers {
+    width: 80%;
   }
 }

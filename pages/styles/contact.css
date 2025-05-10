@@ -114,3 +114,8 @@
     margin: 0;
   }
 }
+@media (min-width: 900px) and (max-width: 1440px) {
+  .map {
+    width: 400px;
+  }
+}

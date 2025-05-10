@@ -162,3 +162,13 @@
     left: 0;
   }
 }
+@media (min-width: 900px) and (max-width: 1440px) {
+  /* Estilos específicos para notebooks */
+  .image-2 {
+    left: 25px;
+    top: -25px;
+  }
+  .center-about-us {
+    width: 90%;
+  }
+}

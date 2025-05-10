@@ -132,6 +132,7 @@ header {
   margin: 0;
 }
 .title-contact {
+  text-align: center;
   color: white;
   font-size: 25px;
 }
@@ -162,6 +163,7 @@ header {
 
 .instagram {
   color: white;
+  text-align: center;
 }
 
 @media (max-width: 600px) {
