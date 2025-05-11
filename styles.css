@@ -83,7 +83,6 @@ header {
   transition: all 0.3s ease-in-out;
   font-weight: bold;
   text-align: center;
-  width: 70px;
   font-size: 15px;
 }
 .header-list li:hover {
@@ -502,6 +501,7 @@ a {
   }
   .header-list li {
     font-size: 12px;
+    width: 70px;
   }
   .title-final-competence {
     font-size: 20px;
