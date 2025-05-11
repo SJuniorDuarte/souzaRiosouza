@@ -82,6 +82,8 @@ header {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
   font-weight: bold;
+  text-align: center;
+  width: 70px;
   font-size: 15px;
 }
 .header-list li:hover {
@@ -487,8 +489,16 @@ a {
   .header-bottom {
     height: 50px;
   }
+  .btn-contact {
+    width: 150px;
+  }
+  .header-button-contact {
+    width: 150px;
+  }
   .header-list {
     gap: 10px;
+    padding: 0;
+    width: 400px;
   }
   .header-list li {
     font-size: 12px;

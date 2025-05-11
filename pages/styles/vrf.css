@@ -1,0 +1,42 @@
+.img-12 {
+  background-image: url(../../images/imagesid/image-id12.jpeg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+.img-12:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.img-12:hover > .btn-image-modal {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+.img-13 {
+  background-image: url(../../images/imagesid/image-id13.jpeg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+.img-13:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.img-13:hover > .btn-image-modal {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}
+.img-14 {
+  background-image: url(../../images/imagesid/image-id14.jpeg);
+  background-size: cover;
+  background-position: center;
+  transition: all 0.3s ease-in-out;
+}
+.img-14:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+.img-14:hover > .btn-image-modal {
+  transition: all 0.3s ease-in-out;
+  display: block;
+}

@@ -167,6 +167,15 @@ header {
 }
 
 @media (max-width: 600px) {
+  .header-list {
+    padding: 0;
+  }
+  .header-button-contact {
+    width: 150px;
+  }
+  .header-bottom div {
+    display: none;
+  }
   .header-bottom {
     height: 50px;
   }
@@ -176,6 +185,7 @@ header {
   .header-list li {
     font-size: 12px;
     width: 70px;
+    text-align: center;
   }
   .contact-me {
     font-size: 12px;
@@ -189,7 +199,7 @@ header {
     height: 100px;
   }
   .btn-contact {
-    width: 100%;
+    width: 150px;
   }
   .instagram {
     font-size: 20px;
@@ -199,7 +209,7 @@ header {
     flex-direction: column;
     gap: 20px;
   }
-  .header-service {
+  .header-service:first-child {
     display: none;
   }
   .title-contact {

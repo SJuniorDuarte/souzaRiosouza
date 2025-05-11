@@ -107,6 +107,13 @@
   .address iframe {
     width: 100%;
   }
+  .form {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .address {
+    width: 300px;
+  }
   .tel {
     font-size: 15px;
   }
