@@ -192,7 +192,7 @@ header {
 .title-competence {
   background-color: #74c0fc;
   padding: 2px;
-  color: #00616b;
+  color: black;
   font-size: 40px;
   margin-bottom: 15px;
   margin-top: 15px;
@@ -218,11 +218,23 @@ header {
   justify-content: center;
   align-items: center;
   margin: auto;
-  background-image: url(images/WhatsApp\ Image\ 2025-05-03\ at\ 15.42.08.jpeg);
+  margin-top: 50px;
+}
+.img-video {
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  margin-top: 50px;
+}
+.img-video:first-child {
+  background-image: url(images/side-left.jpeg);
+}
+.img-video:nth-child(2) {
+  background-image: url(images/WhatsApp\ Image\ 2025-05-03\ at\ 15.42.08.jpeg);
+}
+.img-video:last-child {
+  background-image: url(images/side-right.jpeg);
 }
 .intro-final-competence {
   margin-top: 25px;
@@ -480,7 +492,7 @@ a {
 /* Estilos para celulares (largura máxima de 600px) */
 @media (max-width: 600px) {
   .video-competence {
-    width: 70%;
+    width: 80%;
   }
   .paragraph-competence {
     font-size: 12px;
