@@ -190,7 +190,6 @@ header {
   font-size: 15px;
 }
 .title-competence {
-  background-color: #74c0fc;
   padding: 2px;
   color: black;
   font-size: 40px;
@@ -199,9 +198,6 @@ header {
 }
 .bg-remove {
   background-color: transparent;
-}
-.text-color-competence {
-  color: white;
 }
 .description-competence {
   font-weight: 300;
