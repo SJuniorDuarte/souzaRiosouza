@@ -230,9 +230,6 @@ header {
 .img-video:first-child {
   background-image: url(images/side-left.jpeg);
 }
-.img-video:nth-child(2) {
-  background-image: url(images/WhatsApp\ Image\ 2025-05-03\ at\ 15.42.08.jpeg);
-}
 .img-video:last-child {
   background-image: url(images/side-right.jpeg);
 }
